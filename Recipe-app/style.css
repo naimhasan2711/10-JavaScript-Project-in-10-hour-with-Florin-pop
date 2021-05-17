@@ -5,6 +5,70 @@
 }
 
 body {
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+
   font-family: "Poppins", "sans-serif";
   margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mobile-container {
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px #3333331a;
+  border-radius: 3px;
+  overflow: hidden;
+  width: 400px;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+header input {
+  border: none;
+  background-color: #eee;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+}
+
+header button {
+  background-color: transparent;
+  border: none;
+  color: #aaa;
+  font-size: 2rem;
+  margin-left: 10px;
+}
+
+.fav-container {
+  background-color: #c39af1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.fav-meals {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.fav-meals li {
+}
+
+.fav-meals li img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
 }
