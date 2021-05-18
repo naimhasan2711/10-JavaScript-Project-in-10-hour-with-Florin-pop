@@ -59,16 +59,36 @@ header button {
 
 .fav-meals {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
   list-style-type: none;
   padding: 0;
 }
 
 .fav-meals li {
+  margin: px;
+  width: 85px;
 }
 
 .fav-meals li img {
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 10px 2px #3333331a;
   border-radius: 50%;
   width: 80px;
   height: 80px;
   object-fit: cover;
+}
+
+.meal {
+}
+
+.meal-header {
+}
+
+.meal-header img {
+}
+
+.meal-body {
 }
